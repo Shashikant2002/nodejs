@@ -7,6 +7,12 @@ app.use('/message', (req, res) => {
     })
 })
 
+app.use('/m', (req, res) => {
+    res.send({
+        m: "m"
+    })
+})
+
 app.use('/', (req, res) => {
     res.send({
         message: "done"
