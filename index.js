@@ -8,7 +8,7 @@ app.use('/', (req, res) => {
 })
 app.use('/message', (req, res) => {
     res.send({
-        message: "Shashikant"
+        m: "Shashikant"
     })
 })
 
